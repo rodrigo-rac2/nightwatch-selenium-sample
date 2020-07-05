@@ -40,35 +40,40 @@
         "visual": true,
         "video": true,
         "console": true,
-        "network": true
+        "network": true,
+        "tunnel": true
       }
     },
     "chrome": {
       "desiredCapabilities": {
         "platform": "Windows 8",
         "browserName": "chrome",
-        "version": "71.0"
+        "version": "83.0",
+        "tunnel": true
       }
     },
     "safari": {
       "desiredCapabilities": {
         "platform": "macos 10.13",
         "browserName": "safari",
-        "version": "11.0"
+        "version": "11.0",
+        "tunnel": true
       }
     },
     "firefox": {
       "desiredCapabilities": {
         "platform": "Windows 10",
         "browserName": "firefox",
-        "version": "70"
+        "version": "70",
+        "tunnel": true
       }
     },
     "edge": {
       "desiredCapabilities": {
         "platform": "Windows 10",
         "browserName": "MicrosoftEdge",
-        "version": "17.0"
+        "version": "17.0",
+        "tunnel": true
       }
     },
     "ie": {
@@ -81,7 +86,8 @@
         "javascriptEnabled": true,
         "acceptSslCerts": true,
         "allowBlockedContent": true,
-        "ignoreProtectedModeSettings": true
+        "ignoreProtectedModeSettings": true,
+        "tunnel": true
       }
     }
   }
