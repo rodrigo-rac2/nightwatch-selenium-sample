@@ -1,6 +1,5 @@
 //exclude below files/dir
 
 node_modules/*
-reports
 *.log
 *.exe
